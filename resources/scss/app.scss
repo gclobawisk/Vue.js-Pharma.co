@@ -1,0 +1,69 @@
+$cinza: #f6f4f3;
+$azul: #276fbf;
+$vermelho: #f72c25;
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../public/assets/fonts//Montserrat/Montserrat-Regular.otf') format('truetype' or 'opentype');
+}
+
+$fontsimples: --Montserrat, "Montserrat";
+
+h1{
+    color: $vermelho;
+}
+
+
+th, td{
+    font-family: $fontsimples;
+}
+
+
+a{
+    color: $cinza;
+}
+
+
+a:hover{
+    font-family: $fontsimples;
+    color: $vermelho;
+}
+
+p{
+    color: $cinza;
+}
+
+
+
+//login
+
+body{
+    background-color: $cinza
+}
+
+.bg-interno-login{
+
+    background-color: $azul  !important;
+}
+
+.btn-logar {
+    background-color: $cinza !important;
+    color: $vermelho;
+    font-weight: bold;
+}
+
+.btn-logar:hover {
+    background-color: $vermelho !important;
+}
+
+.small{
+    color: $cinza;
+    text-decoration: none;
+}
+.small:hover{
+    color: #f72c25;
+}
+
+
+

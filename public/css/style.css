@@ -1,0 +1,24 @@
+body{
+    background-color: #276fbf !important;
+}
+
+.bg-interno{
+
+    background-color: #f6f4f3  !important;
+}
+
+.btn-primary {
+    background-color: #276fbf !important;
+}
+
+.btn-primary:hover {
+    background-color: #f72c25 !important;
+}
+
+.small{
+    color :#276fbf;
+    text-decoration: none;
+}
+.small:hover{
+    color: #f72c25;
+}
